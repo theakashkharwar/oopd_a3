@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
   for (; day <= p.days && (p.fixedDays || t.n[I] > 0); day++) {
     double b = ctl.beta();
     fillP(P, b);
-    t = updateRegion(p, cur, next, 0, p.N, 0, p.N, day, P);
+    t = updateRegion(p, cur, next, 0, p.N, 0, p.N, 1, day, P);
     std::swap(cur, next);
     ctl.update(t);
     csvRow(out, day, t, b);
