@@ -17,7 +17,10 @@ struct Params {
   uint64_t seed = 42;
   double beta = 0.08, mu = 0.01, v = 0, m = 1, lambda = 0.3, thOn = 0.02, thOff = 0.005;
   bool fixedDays = false;                 // run all days even if epidemic ends
-  std::string out = "out.csv", mode = "seq", split = "strips", snapDir = "snaps";
+  std::string out = "out.csv", mode = "seq", split = "strips", snapDir = "snaps", snapMode = "async";
+  // sweep options
+  std::string betas = "0.04,0.06,0.08,0.10", vs = "0,0.2,0.4";
+  int nseeds = 3, workers = 4; double timeLimit = 0;
 };
 
 inline Params parseArgs(int argc, char** argv) {
@@ -37,6 +40,9 @@ inline Params parseArgs(int argc, char** argv) {
     else if (k == "theta-on") p.thOn = std::stod(a); else if (k == "theta-off") p.thOff = std::stod(a);
     else if (k == "fixed") p.fixedDays = std::stoi(a) != 0;
     else if (k == "out") p.out = a;                 else if (k == "mode") p.mode = a;
+    else if (k == "snap-mode") p.snapMode = a;      else if (k == "betas") p.betas = a;
+    else if (k == "vs") p.vs = a;                   else if (k == "seeds") p.nseeds = std::stoi(a);
+    else if (k == "workers") p.workers = std::stoi(a); else if (k == "time-limit") p.timeLimit = std::stod(a);
     else if (k == "split") p.split = a;             else if (k == "snap-dir") p.snapDir = a;
     else { fprintf(stderr, "unknown option --%s\n", k.c_str()); exit(1); }
   }
