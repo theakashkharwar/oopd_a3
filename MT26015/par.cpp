@@ -31,5 +31,5 @@ int main(int argc, char** argv) {
     if (snap && day % p.snapK == 0) snap->snapshot(cur, day);
   }
   if (snap) snap->finish();   // wait for all pending writes
-  fprintf(stderr, "days=%d chunks=%zu sim_time=%.4f s\n", day - 1, chunks.size(), nowSec() - t0);
+  fprintf(stderr, "days=%d chunks=%zu sim_time=%.6f s\n", day - 1, chunks.size(), nowSec() - t0);
 }

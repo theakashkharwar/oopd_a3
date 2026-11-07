@@ -1,0 +1,52 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1040' height='390' font-family='sans-serif' font-size='11'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='520' y='18' text-anchor='middle' font-size='15' font-weight='bold'>D2 weak scaling (1000x1000 cells per thread)</text>
+<rect x='70' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='285' y='52' text-anchor='middle' font-size='13'>Weak-scaling efficiency</text>
+<text x='285' y='380' text-anchor='middle'>threads</text>
+<text transform='translate(16,202) rotate(-90)' text-anchor='middle'>efficiency</text>
+<line x1='70' x2='500' y1='335' y2='335' stroke='#ddd'/><text x='65' y='339' text-anchor='end'>0</text>
+<line x1='70' x2='500' y1='268.75' y2='268.75' stroke='#ddd'/><text x='65' y='272.75' text-anchor='end'>0.265</text>
+<line x1='70' x2='500' y1='202.5' y2='202.5' stroke='#ddd'/><text x='65' y='206.5' text-anchor='end'>0.53</text>
+<line x1='70' x2='500' y1='136.25' y2='136.25' stroke='#ddd'/><text x='65' y='140.25' text-anchor='end'>0.795</text>
+<line x1='70' x2='500' y1='70' y2='70' stroke='#ddd'/><text x='65' y='74' text-anchor='end'>1.06</text>
+<line x1='94.9896' x2='94.9896' y1='335' y2='339' stroke='#444'/><text x='94.9896' y='351' text-anchor='middle'>1</text>
+<line x1='189.995' x2='189.995' y1='335' y2='339' stroke='#444'/><text x='189.995' y='351' text-anchor='middle'>2</text>
+<line x1='285' x2='285' y1='335' y2='339' stroke='#444'/><text x='285' y='351' text-anchor='middle'>4</text>
+<line x1='380.005' x2='380.005' y1='335' y2='339' stroke='#444'/><text x='380.005' y='351' text-anchor='middle'>8</text>
+<line x1='475.01' x2='475.01' y1='335' y2='339' stroke='#444'/><text x='475.01' y='351' text-anchor='middle'>16</text>
+<line x1='380.005' x2='380.005' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='94.9896,85 189.995,115.312 285,172.159 380.005,187.775 475.01,211.75 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='94.9896' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='189.995' cy='115.312' r='3' fill='#1f77b4'/>
+<circle cx='285' cy='172.159' r='3' fill='#1f77b4'/>
+<circle cx='380.005' cy='187.775' r='3' fill='#1f77b4'/>
+<circle cx='475.01' cy='211.75' r='3' fill='#1f77b4'/>
+<polyline points='94.9896,85 189.995,85 285,85 380.005,85 475.01,85 ' fill='none' stroke='#d62728' stroke-width='2' stroke-dasharray='6,4'/>
+<rect x='78' y='78' width='10' height='10' fill='#1f77b4'/><text x='92' y='87'>eff</text>
+<rect x='78' y='93' width='10' height='10' fill='#d62728'/><text x='92' y='102'>ideal</text>
+<rect x='590' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='805' y='52' text-anchor='middle' font-size='13'>Scaled speedup</text>
+<text x='805' y='380' text-anchor='middle'>threads</text>
+<text transform='translate(536,202) rotate(-90)' text-anchor='middle'>scaled speedup</text>
+<line x1='590' x2='1020' y1='335' y2='335' stroke='#ddd'/><text x='585' y='339' text-anchor='end'>1</text>
+<line x1='590' x2='1020' y1='202.5' y2='202.5' stroke='#ddd'/><text x='585' y='206.5' text-anchor='end'>10</text>
+<line x1='590' x2='1020' y1='70' y2='70' stroke='#ddd'/><text x='585' y='74' text-anchor='end'>100</text>
+<line x1='614.99' x2='614.99' y1='335' y2='339' stroke='#444'/><text x='614.99' y='351' text-anchor='middle'>1</text>
+<line x1='709.995' x2='709.995' y1='335' y2='339' stroke='#444'/><text x='709.995' y='351' text-anchor='middle'>2</text>
+<line x1='805' x2='805' y1='335' y2='339' stroke='#444'/><text x='805' y='351' text-anchor='middle'>4</text>
+<line x1='900.005' x2='900.005' y1='335' y2='339' stroke='#444'/><text x='900.005' y='351' text-anchor='middle'>8</text>
+<line x1='995.01' x2='995.01' y1='335' y2='339' stroke='#444'/><text x='995.01' y='351' text-anchor='middle'>16</text>
+<line x1='900.005' x2='900.005' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='614.99,335 709.995,302.551 805,279.895 900.005,245.81 995.01,216.152 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='614.99' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='709.995' cy='302.551' r='3' fill='#1f77b4'/>
+<circle cx='805' cy='279.895' r='3' fill='#1f77b4'/>
+<circle cx='900.005' cy='245.81' r='3' fill='#1f77b4'/>
+<circle cx='995.01' cy='216.152' r='3' fill='#1f77b4'/>
+<polyline points='614.99,335 709.995,295.114 805,255.227 900.005,215.341 995.01,175.454 ' fill='none' stroke='#d62728' stroke-width='2' stroke-dasharray='6,4'/>
+<polyline points='614.99,335 709.995,310.522 805,280.226 900.005,245.81 995.01,208.867 ' fill='none' stroke='#2ca02c' stroke-width='2' stroke-dasharray='6,4'/>
+<rect x='598' y='78' width='10' height='10' fill='#1f77b4'/><text x='612' y='87'>measured</text>
+<rect x='598' y='93' width='10' height='10' fill='#d62728'/><text x='612' y='102'>ideal</text>
+<rect x='598' y='108' width='10' height='10' fill='#2ca02c'/><text x='612' y='117'>Gustafson f=0.47</text>
+</svg>

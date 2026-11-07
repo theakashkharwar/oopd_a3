@@ -1,0 +1,77 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1560' height='390' font-family='sans-serif' font-size='11'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='780' y='18' text-anchor='middle' font-size='15' font-weight='bold'>D1 strong scaling N=4000, 200 days (dotted: physical/logical cores)</text>
+<rect x='70' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='285' y='52' text-anchor='middle' font-size='13'>Speedup</text>
+<text x='285' y='380' text-anchor='middle'>threads</text>
+<text transform='translate(16,202) rotate(-90)' text-anchor='middle'>speedup</text>
+<line x1='70' x2='500' y1='335' y2='335' stroke='#ddd'/><text x='65' y='339' text-anchor='end'>1</text>
+<line x1='70' x2='500' y1='202.5' y2='202.5' stroke='#ddd'/><text x='65' y='206.5' text-anchor='end'>10</text>
+<line x1='70' x2='500' y1='70' y2='70' stroke='#ddd'/><text x='65' y='74' text-anchor='end'>100</text>
+<line x1='90.4675' x2='90.4675' y1='335' y2='339' stroke='#444'/><text x='90.4675' y='351' text-anchor='middle'>1</text>
+<line x1='168.28' x2='168.28' y1='335' y2='339' stroke='#444'/><text x='168.28' y='351' text-anchor='middle'>2</text>
+<line x1='246.093' x2='246.093' y1='335' y2='339' stroke='#444'/><text x='246.093' y='351' text-anchor='middle'>4</text>
+<line x1='323.907' x2='323.907' y1='335' y2='339' stroke='#444'/><text x='323.907' y='351' text-anchor='middle'>8</text>
+<line x1='401.72' x2='401.72' y1='335' y2='339' stroke='#444'/><text x='401.72' y='351' text-anchor='middle'>16</text>
+<line x1='479.533' x2='479.533' y1='335' y2='339' stroke='#444'/><text x='479.533' y='351' text-anchor='middle'>32</text>
+<line x1='323.907' x2='323.907' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<line x1='401.72' x2='401.72' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='90.4675,335 168.28,303.5 246.093,276.251 323.907,247.612 401.72,216.267 479.533,217.419 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='90.4675' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='168.28' cy='303.5' r='3' fill='#1f77b4'/>
+<circle cx='246.093' cy='276.251' r='3' fill='#1f77b4'/>
+<circle cx='323.907' cy='247.612' r='3' fill='#1f77b4'/>
+<circle cx='401.72' cy='216.267' r='3' fill='#1f77b4'/>
+<circle cx='479.533' cy='217.419' r='3' fill='#1f77b4'/>
+<polyline points='90.4675,335 168.28,295.114 246.093,255.227 323.907,215.341 401.72,175.454 479.533,135.568 ' fill='none' stroke='#d62728' stroke-width='2' stroke-dasharray='6,4'/>
+<polyline points='90.4675,335 168.28,303.006 246.093,276.251 323.907,256.057 401.72,242.478 479.533,234.261 ' fill='none' stroke='#2ca02c' stroke-width='2' stroke-dasharray='6,4'/>
+<rect x='78' y='78' width='10' height='10' fill='#1f77b4'/><text x='92' y='87'>measured</text>
+<rect x='78' y='93' width='10' height='10' fill='#d62728'/><text x='92' y='102'>ideal</text>
+<rect x='78' y='108' width='10' height='10' fill='#2ca02c'/><text x='92' y='117'>Amdahl f=0.147</text>
+<rect x='590' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='805' y='52' text-anchor='middle' font-size='13'>Efficiency</text>
+<text x='805' y='380' text-anchor='middle'>threads</text>
+<text transform='translate(536,202) rotate(-90)' text-anchor='middle'>efficiency</text>
+<line x1='590' x2='1020' y1='335' y2='335' stroke='#ddd'/><text x='585' y='339' text-anchor='end'>0</text>
+<line x1='590' x2='1020' y1='268.75' y2='268.75' stroke='#ddd'/><text x='585' y='272.75' text-anchor='end'>0.265</text>
+<line x1='590' x2='1020' y1='202.5' y2='202.5' stroke='#ddd'/><text x='585' y='206.5' text-anchor='end'>0.53</text>
+<line x1='590' x2='1020' y1='136.25' y2='136.25' stroke='#ddd'/><text x='585' y='140.25' text-anchor='end'>0.795</text>
+<line x1='590' x2='1020' y1='70' y2='70' stroke='#ddd'/><text x='585' y='74' text-anchor='end'>1.06</text>
+<line x1='610.467' x2='610.467' y1='335' y2='339' stroke='#444'/><text x='610.467' y='351' text-anchor='middle'>1</text>
+<line x1='688.28' x2='688.28' y1='335' y2='339' stroke='#444'/><text x='688.28' y='351' text-anchor='middle'>2</text>
+<line x1='766.093' x2='766.093' y1='335' y2='339' stroke='#444'/><text x='766.093' y='351' text-anchor='middle'>4</text>
+<line x1='843.907' x2='843.907' y1='335' y2='339' stroke='#444'/><text x='843.907' y='351' text-anchor='middle'>8</text>
+<line x1='921.72' x2='921.72' y1='335' y2='339' stroke='#444'/><text x='921.72' y='351' text-anchor='middle'>16</text>
+<line x1='999.533' x2='999.533' y1='335' y2='339' stroke='#444'/><text x='999.533' y='351' text-anchor='middle'>32</text>
+<line x1='843.907' x2='843.907' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<line x1='921.72' x2='921.72' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='610.467,85 688.28,118.905 766.093,161.512 843.907,192.314 921.72,211.997 999.533,274.718 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='610.467' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='688.28' cy='118.905' r='3' fill='#1f77b4'/>
+<circle cx='766.093' cy='161.512' r='3' fill='#1f77b4'/>
+<circle cx='843.907' cy='192.314' r='3' fill='#1f77b4'/>
+<circle cx='921.72' cy='211.997' r='3' fill='#1f77b4'/>
+<circle cx='999.533' cy='274.718' r='3' fill='#1f77b4'/>
+<rect x='1110' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='1325' y='52' text-anchor='middle' font-size='13'>Karp-Flatt serial fraction</text>
+<text x='1325' y='380' text-anchor='middle'>threads</text>
+<text transform='translate(1056,202) rotate(-90)' text-anchor='middle'>e(p)</text>
+<line x1='1110' x2='1540' y1='335' y2='335' stroke='#ddd'/><text x='1105' y='339' text-anchor='end'>0</text>
+<line x1='1110' x2='1540' y1='268.75' y2='268.75' stroke='#ddd'/><text x='1105' y='272.75' text-anchor='end'>0.0416</text>
+<line x1='1110' x2='1540' y1='202.5' y2='202.5' stroke='#ddd'/><text x='1105' y='206.5' text-anchor='end'>0.0832</text>
+<line x1='1110' x2='1540' y1='136.25' y2='136.25' stroke='#ddd'/><text x='1105' y='140.25' text-anchor='end'>0.125</text>
+<line x1='1110' x2='1540' y1='70' y2='70' stroke='#ddd'/><text x='1105' y='74' text-anchor='end'>0.166</text>
+<line x1='1134.99' x2='1134.99' y1='335' y2='339' stroke='#444'/><text x='1134.99' y='351' text-anchor='middle'>2</text>
+<line x1='1229.99' x2='1229.99' y1='335' y2='339' stroke='#444'/><text x='1229.99' y='351' text-anchor='middle'>4</text>
+<line x1='1325' x2='1325' y1='335' y2='339' stroke='#444'/><text x='1325' y='351' text-anchor='middle'>8</text>
+<line x1='1420.01' x2='1420.01' y1='335' y2='339' stroke='#444'/><text x='1420.01' y='351' text-anchor='middle'>16</text>
+<line x1='1515.01' x2='1515.01' y1='335' y2='339' stroke='#444'/><text x='1515.01' y='351' text-anchor='middle'>32</text>
+<line x1='1325' x2='1325' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<line x1='1420.01' x2='1420.01' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='1134.99,85 1229.99,100.762 1325,163.8 1420.01,225.325 1515.01,173.237 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='1134.99' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='1229.99' cy='100.762' r='3' fill='#1f77b4'/>
+<circle cx='1325' cy='163.8' r='3' fill='#1f77b4'/>
+<circle cx='1420.01' cy='225.325' r='3' fill='#1f77b4'/>
+<circle cx='1515.01' cy='173.237' r='3' fill='#1f77b4'/>
+</svg>

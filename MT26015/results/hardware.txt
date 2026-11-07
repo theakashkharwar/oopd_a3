@@ -1,0 +1,10 @@
+Logical cores: 16
+Physical cores: 8
+OS: Linux 6.18.54.1-microsoft-standard-WSL2
+CPU: AMD Ryzen 7 7840HS w/ Radeon 780M Graphics
+L1d cache:                               256 KiB (8 instances)
+L1i cache:                               256 KiB (8 instances)
+L2 cache:                                8 MiB (8 instances)
+L3 cache:                                16 MiB (1 instance)
+Memory: Mem:           7.4Gi       512Mi       6.9Gi       3.6Mi       109Mi       6.9Gi
+Compiler: g++ (Debian 16.2.0-3) 16.2.0
