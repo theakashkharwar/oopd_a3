@@ -1,0 +1,100 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1560' height='390' font-family='sans-serif' font-size='11'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='780' y='18' text-anchor='middle' font-size='15' font-weight='bold'>E3 effect of vaccination (dotted: mean-field 1-1/R0)</text>
+<rect x='70' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='285' y='52' text-anchor='middle' font-size='13'>Final fraction ever infected</text>
+<text x='285' y='380' text-anchor='middle'>vaccinated fraction v</text>
+<text transform='translate(16,202) rotate(-90)' text-anchor='middle'>attack rate</text>
+<line x1='70' x2='500' y1='335' y2='335' stroke='#ddd'/><text x='65' y='339' text-anchor='end'>0</text>
+<line x1='70' x2='500' y1='268.75' y2='268.75' stroke='#ddd'/><text x='65' y='272.75' text-anchor='end'>0.262</text>
+<line x1='70' x2='500' y1='202.5' y2='202.5' stroke='#ddd'/><text x='65' y='206.5' text-anchor='end'>0.524</text>
+<line x1='70' x2='500' y1='136.25' y2='136.25' stroke='#ddd'/><text x='65' y='140.25' text-anchor='end'>0.786</text>
+<line x1='70' x2='500' y1='70' y2='70' stroke='#ddd'/><text x='65' y='74' text-anchor='end'>1.05</text>
+<line x1='70' x2='70' y1='335' y2='339' stroke='#444'/><text x='70' y='351' text-anchor='middle'>-0.027</text>
+<line x1='177.5' x2='177.5' y1='335' y2='339' stroke='#444'/><text x='177.5' y='351' text-anchor='middle'>0.212</text>
+<line x1='285' x2='285' y1='335' y2='339' stroke='#444'/><text x='285' y='351' text-anchor='middle'>0.45</text>
+<line x1='392.5' x2='392.5' y1='335' y2='339' stroke='#444'/><text x='392.5' y='351' text-anchor='middle'>0.689</text>
+<line x1='500' x2='500' y1='335' y2='339' stroke='#444'/><text x='500' y='351' text-anchor='middle'>0.927</text>
+<line x1='432.293' x2='432.293' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='82.1698,85.0757 127.243,112.872 172.317,143.864 217.39,203.786 262.463,333.756 307.537,334.754 330.073,334.879 352.61,334.918 375.147,334.943 397.683,334.957 442.757,334.979 487.83,334.985 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='82.1698' cy='85.0757' r='3' fill='#1f77b4'/>
+<line x1='82.1698' x2='82.1698' y1='85.1514' y2='85' stroke='#1f77b4'/>
+<circle cx='127.243' cy='112.872' r='3' fill='#1f77b4'/>
+<line x1='127.243' x2='127.243' y1='112.982' y2='112.763' stroke='#1f77b4'/>
+<circle cx='172.317' cy='143.864' r='3' fill='#1f77b4'/>
+<line x1='172.317' x2='172.317' y1='144.155' y2='143.572' stroke='#1f77b4'/>
+<circle cx='217.39' cy='203.786' r='3' fill='#1f77b4'/>
+<line x1='217.39' x2='217.39' y1='210.574' y2='196.998' stroke='#1f77b4'/>
+<circle cx='262.463' cy='333.756' r='3' fill='#1f77b4'/>
+<line x1='262.463' x2='262.463' y1='334.349' y2='333.162' stroke='#1f77b4'/>
+<circle cx='307.537' cy='334.754' r='3' fill='#1f77b4'/>
+<line x1='307.537' x2='307.537' y1='334.832' y2='334.676' stroke='#1f77b4'/>
+<circle cx='330.073' cy='334.879' r='3' fill='#1f77b4'/>
+<line x1='330.073' x2='330.073' y1='334.919' y2='334.839' stroke='#1f77b4'/>
+<circle cx='352.61' cy='334.918' r='3' fill='#1f77b4'/>
+<line x1='352.61' x2='352.61' y1='334.945' y2='334.89' stroke='#1f77b4'/>
+<circle cx='375.147' cy='334.943' r='3' fill='#1f77b4'/>
+<line x1='375.147' x2='375.147' y1='334.955' y2='334.932' stroke='#1f77b4'/>
+<circle cx='397.683' cy='334.957' r='3' fill='#1f77b4'/>
+<line x1='397.683' x2='397.683' y1='334.967' y2='334.947' stroke='#1f77b4'/>
+<circle cx='442.757' cy='334.979' r='3' fill='#1f77b4'/>
+<line x1='442.757' x2='442.757' y1='334.984' y2='334.974' stroke='#1f77b4'/>
+<circle cx='487.83' cy='334.985' r='3' fill='#1f77b4'/>
+<line x1='487.83' x2='487.83' y1='334.987' y2='334.982' stroke='#1f77b4'/>
+<rect x='590' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='805' y='52' text-anchor='middle' font-size='13'>Fraction of runs with a major outbreak</text>
+<text x='805' y='380' text-anchor='middle'>vaccinated fraction v</text>
+<text transform='translate(536,202) rotate(-90)' text-anchor='middle'>P(major)</text>
+<line x1='590' x2='1020' y1='335' y2='335' stroke='#ddd'/><text x='585' y='339' text-anchor='end'>0</text>
+<line x1='590' x2='1020' y1='268.75' y2='268.75' stroke='#ddd'/><text x='585' y='272.75' text-anchor='end'>0.265</text>
+<line x1='590' x2='1020' y1='202.5' y2='202.5' stroke='#ddd'/><text x='585' y='206.5' text-anchor='end'>0.53</text>
+<line x1='590' x2='1020' y1='136.25' y2='136.25' stroke='#ddd'/><text x='585' y='140.25' text-anchor='end'>0.795</text>
+<line x1='590' x2='1020' y1='70' y2='70' stroke='#ddd'/><text x='585' y='74' text-anchor='end'>1.06</text>
+<line x1='590' x2='590' y1='335' y2='339' stroke='#444'/><text x='590' y='351' text-anchor='middle'>-0.027</text>
+<line x1='697.5' x2='697.5' y1='335' y2='339' stroke='#444'/><text x='697.5' y='351' text-anchor='middle'>0.212</text>
+<line x1='805' x2='805' y1='335' y2='339' stroke='#444'/><text x='805' y='351' text-anchor='middle'>0.45</text>
+<line x1='912.5' x2='912.5' y1='335' y2='339' stroke='#444'/><text x='912.5' y='351' text-anchor='middle'>0.689</text>
+<line x1='1020' x2='1020' y1='335' y2='339' stroke='#444'/><text x='1020' y='351' text-anchor='middle'>0.927</text>
+<line x1='952.293' x2='952.293' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='602.17,85 647.243,85 692.317,85 737.39,85 782.463,335 827.537,335 850.073,335 872.61,335 895.147,335 917.683,335 962.757,335 1007.83,335 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='602.17' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='647.243' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='692.317' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='737.39' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='782.463' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='827.537' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='850.073' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='872.61' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='895.147' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='917.683' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='962.757' cy='335' r='3' fill='#1f77b4'/>
+<circle cx='1007.83' cy='335' r='3' fill='#1f77b4'/>
+<rect x='1110' y='70' width='430' height='265' fill='none' stroke='#444'/>
+<text x='1325' y='52' text-anchor='middle' font-size='13'>Peak infected fraction</text>
+<text x='1325' y='380' text-anchor='middle'>vaccinated fraction v</text>
+<text transform='translate(1056,202) rotate(-90)' text-anchor='middle'>peak I</text>
+<line x1='1110' x2='1540' y1='335' y2='335' stroke='#ddd'/><text x='1105' y='339' text-anchor='end'>0</text>
+<line x1='1110' x2='1540' y1='268.75' y2='268.75' stroke='#ddd'/><text x='1105' y='272.75' text-anchor='end'>0.00674</text>
+<line x1='1110' x2='1540' y1='202.5' y2='202.5' stroke='#ddd'/><text x='1105' y='206.5' text-anchor='end'>0.0135</text>
+<line x1='1110' x2='1540' y1='136.25' y2='136.25' stroke='#ddd'/><text x='1105' y='140.25' text-anchor='end'>0.0202</text>
+<line x1='1110' x2='1540' y1='70' y2='70' stroke='#ddd'/><text x='1105' y='74' text-anchor='end'>0.027</text>
+<line x1='1110' x2='1110' y1='335' y2='339' stroke='#444'/><text x='1110' y='351' text-anchor='middle'>-0.027</text>
+<line x1='1217.5' x2='1217.5' y1='335' y2='339' stroke='#444'/><text x='1217.5' y='351' text-anchor='middle'>0.212</text>
+<line x1='1325' x2='1325' y1='335' y2='339' stroke='#444'/><text x='1325' y='351' text-anchor='middle'>0.45</text>
+<line x1='1432.5' x2='1432.5' y1='335' y2='339' stroke='#444'/><text x='1432.5' y='351' text-anchor='middle'>0.689</text>
+<line x1='1540' x2='1540' y1='335' y2='339' stroke='#444'/><text x='1540' y='351' text-anchor='middle'>0.927</text>
+<line x1='1472.29' x2='1472.29' y1='70' y2='335' stroke='gray' stroke-dasharray='2,3'/>
+<polyline points='1122.17,85 1167.24,145.574 1212.32,200.01 1257.39,268.909 1302.46,331.311 1347.54,333.105 1370.07,333.521 1392.61,333.746 1415.15,333.962 1437.68,334.041 1482.76,334.316 1527.83,334.442 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<circle cx='1122.17' cy='85' r='3' fill='#1f77b4'/>
+<circle cx='1167.24' cy='145.574' r='3' fill='#1f77b4'/>
+<circle cx='1212.32' cy='200.01' r='3' fill='#1f77b4'/>
+<circle cx='1257.39' cy='268.909' r='3' fill='#1f77b4'/>
+<circle cx='1302.46' cy='331.311' r='3' fill='#1f77b4'/>
+<circle cx='1347.54' cy='333.105' r='3' fill='#1f77b4'/>
+<circle cx='1370.07' cy='333.521' r='3' fill='#1f77b4'/>
+<circle cx='1392.61' cy='333.746' r='3' fill='#1f77b4'/>
+<circle cx='1415.15' cy='333.962' r='3' fill='#1f77b4'/>
+<circle cx='1437.68' cy='334.041' r='3' fill='#1f77b4'/>
+<circle cx='1482.76' cy='334.316' r='3' fill='#1f77b4'/>
+<circle cx='1527.83' cy='334.442' r='3' fill='#1f77b4'/>
+</svg>

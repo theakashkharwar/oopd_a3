@@ -16,7 +16,7 @@ struct Params {
   int N = 1000, days = 200, d = 7, I0 = 10, threads = 1, chunks = 1, snapK = 0, Q = 4, ioLatency = 0;
   uint64_t seed = 42;
   double beta = 0.08, mu = 0.01, v = 0, m = 1, lambda = 0.3, thOn = 0.02, thOff = 0.005;
-  bool fixedDays = false;                 // run all days even if epidemic ends
+  bool fixedDays = false, lockdown = true;   // lockdown=false: only masks apply                 // run all days even if epidemic ends
   std::string out = "out.csv", mode = "seq", split = "strips", snapDir = "snaps", snapMode = "async";
   // sweep options
   std::string betas = "0.04,0.06,0.08,0.10", vs = "0,0.2,0.4";
@@ -38,6 +38,7 @@ inline Params parseArgs(int argc, char** argv) {
     else if (k == "mu") p.mu = std::stod(a);        else if (k == "v") p.v = std::stod(a);
     else if (k == "m") p.m = std::stod(a);          else if (k == "lambda") p.lambda = std::stod(a);
     else if (k == "theta-on") p.thOn = std::stod(a); else if (k == "theta-off") p.thOff = std::stod(a);
+    else if (k == "lockdown") p.lockdown = std::stoi(a) != 0;
     else if (k == "fixed") p.fixedDays = std::stoi(a) != 0;
     else if (k == "out") p.out = a;                 else if (k == "mode") p.mode = a;
     else if (k == "snap-mode") p.snapMode = a;      else if (k == "betas") p.betas = a;
@@ -126,6 +127,7 @@ struct Controller {
   explicit Controller(const Params& q) : p(q) {}
   double beta() const { return p.beta * p.m * (locked ? p.lambda : 1.0); }
   void update(const Counts& t) {  // decision from day t applies from day t+1
+    if (!p.lockdown) return;
     double f = (double)t.n[I] / ((double)p.N * p.N);
     if (!locked && f > p.thOn) locked = true;
     else if (locked && f < p.thOff) locked = false;
