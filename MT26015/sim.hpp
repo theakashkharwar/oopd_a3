@@ -90,11 +90,11 @@ inline Counts countGrid(const Grid& g) {  // used for the day-0 row
 }
 
 // Update rectangle rows [r0,r1) x cols [c0,c1): reads cur, writes only those cells of next.
-inline Counts updateRegion(const Params& p, const Grid& cur, Grid& next, int r0, int r1, int c0, int c1,
+inline Counts updateRegion(const Params& p, const Grid& cur, Grid& next, int r0, int r1, int c0, int c1, int rstep,
                            int day, const double* P) {
   const int N = cur.N;
   Counts t;
-  for (int i = r0; i < r1; i++)
+  for (int i = r0; i < r1; i += rstep)
     for (int j = c0; j < c1; j++) {
       size_t id = (size_t)i * N + j;
       uint8_t s = cur.s[id], c = cur.c[id], ns = s, nc = 0;
